@@ -35,8 +35,9 @@ module.exports = (api, opts, rootOptions) => {
   api.onCreateComplete(() => {
     if (opts.import === 'partial') {
       utils.updateBabelConfig(cfg => {
-        const pluginComponent = ['component', {
-          'libraryName': 'iview',
+        const pluginComponent = ["import", {
+            "libraryName": "iview",
+            "libraryDirectory": "src/components"
         }]
         cfg.plugins = cfg.plugins || []
         cfg.plugins.push(pluginComponent)
