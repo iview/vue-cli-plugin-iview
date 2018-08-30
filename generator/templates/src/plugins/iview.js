@@ -12,7 +12,7 @@ Vue.use(iView)
 <%_ } else { _%>
 import { Button } from 'iview'
 <%_ if (options.lang !== 'zh-CN') { _%>
-import locale from 'iview/dist/locale/<%= options.lang %>'
+import lang from 'iview/dist/locale/<%= options.lang %>'
 import { locale } from 'iview'
 
 locale(lang)
