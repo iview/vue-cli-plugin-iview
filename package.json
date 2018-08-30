@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-iview",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue-cli 3 plugin to add iView",
   "main": "index.js",
   "repository": {
