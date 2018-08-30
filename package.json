@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-plugin-iview",
+  "version": "1.0.0",
+  "description": "vue-cli 3 plugin to add iView",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iview/vue-cli-plugin-iview.git"
+  },
+  "keywords": [
+    "iview",
+    "iview-ui",
+    "vue",
+    "vue-cli",
+    "plugin",
+    "cli"
+  ],
+  "author": "Aresn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iview/vue-cli-plugin-iview/issues"
+  },
+  "homepage": "https://github.com/iview/vue-cli-plugin-iview#readme"
+}
